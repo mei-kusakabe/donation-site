@@ -1,0 +1,153 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.donate-now {
+    background: url(images/donation6.jpg) no-repeat center top;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken, luminosity;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    margin-top: 0;
+
+}
+
+.donate-today {
+
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    background-repeat: no-repeat;
+    margin-top: 0;
+
+}
+
+.motto {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 65px;
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    width: 50%;
+    padding-left: 25%;
+}
+
+.link-button {
+    padding-top: 100px;
+    margin: 40%;
+    text-decoration: none;
+    font-size: 20px;
+    background-image: linear-gradient(tomato, salmon);
+    color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+
+}
+
+#part-2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    color: black;
+    width: 50%;
+    padding-left: 25%;
+
+}
+
+#para-2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #707070;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box {
+    margin-left: 50%;
+    margin-right: 50%;
+    box-sizing: border-box;
+    width: 135px;
+    height: 123px;
+    left: 338px;
+    top: 979px;
+    text-align: center;
+    background: #FAFAFA;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    line-height: 36px;
+
+}
+
+.button-2 {
+    margin: 0.5%;
+    line-height: 36px;
+    width: 50%;
+    padding: 15px 10px 6px 7px;
+    color: #090909;
+    text-decoration: none;
+    width: 135px;
+    height: 123px;
+    left: 338px;
+    top: 979px;
+    font-size: 18px;
+    border-radius: 5px;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+ul {
+
+    margin-left: 420px;
+    margin-right: 420px;
+}
+
+#amount {
+    margin-top: 5px;
+    margin-left: 420px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 35%;
+    font-size: 20px;
+    line-height: 40px;
+    border: none;
+    border-bottom: 2px solid rgb(193, 186, 186);
+    min-width: 50px;
+    padding-left: 5px;
+    outline: none;
+    color: rgba(0, 0, 0, 1);
+}
+
+.donate-plan {
+
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    background-repeat: no-repeat;
+    margin-top: 20%;
+    text-decoration: none;
+    text-align: center;
+
+}
