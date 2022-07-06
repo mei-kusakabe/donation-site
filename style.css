@@ -1,7 +1,8 @@
-body {
+* {
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .donate-now {
@@ -97,22 +98,78 @@ p {
 
 }
 
-.button-2 {
-    margin: 0.5%;
-    line-height: 36px;
-    width: 50%;
+
+
+.border {
+    /* justify-content: center;
+    width: 135px;
+    height: 123px;
+    left: 338px;
+    top: 979px;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    background: #FAFAFA;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
+    outline: none; */
+    /*line-height: 36px;*/
+
+    margin: 1%;
+    width: 1%;
     padding: 15px 10px 6px 7px;
-    color: #090909;
+    width: 100px;
+    height: 80px;
+    left: 200px;
+    top: 600px;
+    font-size: 12px;
     text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    background: #e8e8e8;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
+
+}
+
+.red {
+    margin: 0.5%;
+    width: 75%;
+    padding: 15px 10px 6px 7px;
+    color: salmon;
     width: 135px;
     height: 123px;
     left: 338px;
     top: 979px;
     font-size: 18px;
-    border-radius: 5px;
+    text-decoration: none;
+
     background: #e8e8e8;
-    border: 1px solid #e8e8e8;
-    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    border: 1px solid salmon;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 5px;
+}
+
+.menu-items li {
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    padding-right: 25px;
+    font-size: 30px;
+    /* border: 1px solid #000000; */
+    border: 1px solid rgb(205, 201, 200);
+
+
+}
+
+.menu-items li:hover {
+    color: blanchedalmond;
+    cursor: pointer;
 }
 
 ul {
@@ -139,15 +196,136 @@ ul {
     color: rgba(0, 0, 0, 1);
 }
 
+
+
+
+
+.button-2 {
+    margin: 0.5%;
+    line-height: 36px;
+    width: 50%;
+    padding: 15px 10px 6px 7px;
+    color: #090909;
+    text-decoration: none;
+    width: 135px;
+    height: 123px;
+    left: 338px;
+    top: 979px;
+    font-size: 18px;
+    border-radius: 5px;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+
+
+
+.half-width {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.flexible-container {
+    display: flex;
+    justify-content: space-evenly;
+    /*grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;*/
+    margin-left: 17%;
+    align-items: center;
+
+}
+
 .donate-plan {
 
     background-color: white;
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
     height: 40vh;
     background-repeat: no-repeat;
     margin-top: 20%;
     text-decoration: none;
-    text-align: center;
+    text-align: left;
 
+}
+
+.third-page {
+    width: 500px;
+    height: 500px;
+    margin: 5px;
+
+}
+
+#para-donate {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 900;
+    color: #707070;
+    /* color: black; */
+    width: 50%;
+    padding-left: 10%;
+}
+
+.plan-icon {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#b-1 {
+
+    position: absolute;
+    width: 360px;
+    height: 352px;
+    left: 157px;
+    top: 1595.5px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    box-shadow: 8px 8px 16px rgba(79, 157, 166, 0.1);
+}
+
+#b-2 {
+
+    position: absolute;
+    width: 360px;
+    height: 352px;
+    left: 541px;
+    top: 1595.5px;
+    background: #fbd9de;
+    border-radius: 5px;
+    box-shadow: 8px 8px 16px #fbd9de;
+
+}
+
+#b-3 {
+    position: absolute;
+    width: 360px;
+    height: 352px;
+    left: 925px;
+    top: 1595.5px;
+    background: #F4EDAE;
+    border-radius: 5px;
+    box-shadow: 8px 8px 16px #F4EDAE;
+
+}
+
+footer {
+    bottom: 0;
+    color: #707070;
+    height: 2hv;
+    left: 0;
+    position: relative;
+    font-size: small;
+    width: 100%;
+
+}
+
+footer h2 {
+    color: tomato;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+footer p {
+    color: white;
 }
